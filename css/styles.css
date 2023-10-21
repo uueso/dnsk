@@ -14,7 +14,7 @@
 body {
     margin: 0;
     margin: 0 auto;
-    background-image: url(../../images/background.png);
+    background-image: url(../images/background.png);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center; 
@@ -40,7 +40,7 @@ body {
 }
 
 .intro {
-    background-image: url(../../images/introblock.png);
+    background-image: url(../images/introblock.png);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center; 
@@ -172,7 +172,7 @@ body {
 /* Experience section  */
 
 .experience {
-    background-image: url(../../images/Frame\ 164.png);
+    background-image: url(../images/Frame\ 164.png);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center; 
@@ -250,13 +250,13 @@ body {
 
 
 .benefit-item:first-child {
-    background-image: url(../../images/block2.png);
+    background-image: url(../images/block2.png);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center; 
 }
 .benefit-item:last-child {
-    background-image: url(../../images/block3.png);
+    background-image: url(../images/block3.png);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center; 
@@ -292,7 +292,7 @@ body {
 }
 
 .cooperation {
-    background-image: url(../../images/block4.png);
+    background-image: url(../images/block4.png);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center center; 
@@ -425,7 +425,7 @@ body {
 /* Footer  */
 
 .footer-inner {
-    background-image: url(../../images/footer.png);
+    background-image: url(../images/footer.png);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: 50% 50%; 
