@@ -1,0 +1,553 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(/fonts/SFPRODISPLAYREGULAR.OTF);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url(/fonts/SFPRODISPLAYMEDIUM.OTF);
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    margin: 0 auto;
+    background-image: url(../../images/background.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+}
+
+ *,
+ ::before,
+ ::after {
+    box-sizing: border-box;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+ p {
+    margin: 0;
+}
+.container {
+    max-width: 1640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro {
+    background-image: url(../../images/introblock.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    padding: 0 100px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.nav-link {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.035em;
+    text-align: right;
+    color: #ccc;
+}
+
+.intro-text-container {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.heart {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.055em;
+    text-align: left;
+    color: #0066FF;
+    margin-bottom: 23px;
+}
+
+.intro-title {
+    font-family: Inter;
+    font-size: 58px;
+    font-style: italic;
+    transform: skewX(0deg);
+    font-weight: 600;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    width: 50%;
+    background: linear-gradient(90deg, rgb(113 141 255 / 60%) 2%, rgba(240,240,240,1) 20%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 15px;
+}
+
+.intro-text-content {
+    margin-bottom: 30px;
+}
+
+.intro-text {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #8CB7FE;
+    width: 50%;
+}
+
+.learn-more-btn {
+    width: 262px;
+    height: 52px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #dbdcf6;
+    position: relative;
+    background-color: #484cc8;
+    cursor: pointer;
+    transition: transform 0.4s, background-color 0.4s;
+}
+.learn-more-btn svg:first-of-type {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.btn-text {
+    position: inherit;
+    z-index: 2;
+    text-align: center;
+}
+
+.learn-more-btn:hover {
+    transform: scale(1.05); 
+    background-color: #2f35cc;
+}
+
+/* Experience section  */
+
+.experience {
+    background-image: url(../../images/Frame\ 164.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 45px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    transition: transform 0.4s;
+}
+
+.experience:hover {
+    transform: scale(1.05); 
+}
+
+
+.experience-item {
+    border: 2px solid;
+    color: #C8E0FF;
+    font-family: SF Pro Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;   
+    padding: 16px; 
+    border-image-source: radial-gradient(244.85% 1497.92% at 43.87% 8.09%, #8A88FE 0%, rgba(66, 140, 252, 0) 100%);
+    width: 36%;
+    border-radius: 10px;
+    transition: transform 0.4s;
+}
+
+.experience-item:hover {
+    transform: scale(1.05); 
+}
+
+.experience-item-1 {
+    background: linear-gradient(91.41deg, #245BC5 18.56%, #1D24C9 53.53%, #05437C 100%),
+    radial-gradient(244.85% 1497.92% at 43.87% 8.09%, #8A88FE 0%, rgba(66, 140, 252, 0) 100%);
+}
+
+.experience-item-2 {
+    background: linear-gradient(91.41deg, #245BC5 18.56%, #1D24C9 53.53%, #05437C 100%),
+    radial-gradient(244.85% 1497.92% at 43.87% 8.09%, #8A88FE 0%, rgba(66, 140, 252, 0) 100%);    
+}
+
+.experience-item-3 {
+    background: linear-gradient(91.41deg, #245BC5 18.56%, #1D24C9 53.53%, #05437C 100%),
+    radial-gradient(244.85% 1497.92% at 43.87% 8.09%, #8A88FE 0%, rgba(66, 140, 252, 0) 100%);    
+}
+
+.benefit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.benefit-item {
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 10px;
+    width: 50%;
+    transition: transform 0.4s;
+}
+.benefit-item:hover {
+    transform: scale(1.05); 
+}
+
+
+.benefit-item:first-child {
+    background-image: url(../../images/block2.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+}
+.benefit-item:last-child {
+    background-image: url(../../images/block3.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+}
+
+.benefit-title {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    padding-top: 50px;
+}
+
+.benefit-text  {
+    font-family: SF Pro Display;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #8CB7FE;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.text-highlight {
+    background-color: #8cb8fe59;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.cooperation {
+    background-image: url(../../images/block4.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    padding: 20px 5% 20px 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    transition: transform 0.4s;
+}
+
+.cooperation:hover {
+    transform: scale(1.05); 
+}
+
+
+.cooperation p {
+    width: 50%;
+    padding-bottom: 70px;
+}
+
+/* Themes Section  */
+
+.themes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.themes-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.themes-item {
+    padding-top: 25px;
+    padding-left: 30px;
+    border: 1px solid #2F3751;
+    border-radius: 15px;
+    transition: border-width 0.3s linear;
+}
+
+.themes-item:hover .theme-btn {
+    transform: scale(1.08); 
+}
+.themes-item:hover {
+    border: 2px solid #fff; 
+}
+
+
+.theme-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.btn-title {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.themes-title {
+    font-family: SF Pro Display;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 210px;
+}
+
+.themes-item-1 {
+    width: 66.66666%;
+    transition: transform 0.3s linear, border-width 0.3s linear;
+}
+.themes-item-1:hover {
+    border: 2px solid #fff; 
+}
+
+.themes-item-1:hover img {
+    transform: scale(1.05); 
+}
+
+.themes-item-1:hover button.theme-btn-look {
+    transform: scale(1.05); 
+}
+
+.themes-item-1 img {
+    transition: transform 0.4s;
+}
+
+.themes-item-2 {
+    width: 33.33333%;
+}
+
+.theme-btn-look {
+    font-family: SF Pro Display;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;    
+    border: 1px solid #C9D6FF;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: transparent;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.theme-btn {
+    margin-bottom: 30px;
+    border-radius: 50px;
+    border: 1px solid #C9D6FF;
+    background-color: transparent;
+    padding: 11px 18px;
+    transition: transform 0.4s;
+    cursor: pointer;
+}
+
+/* Footer  */
+
+.footer-inner {
+    background-image: url(../../images/footer.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+
+.footer-title {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-link {
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;    
+    transition: text-decoration 0.4s linear;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9ea1a7;    
+    margin-top: 25px;
+}
+
+@media screen and (max-width:1680px) {
+    .container {
+        max-width: 1440px;
+    }
+    .intro {
+        background-position: 85%;
+    }
+    .intro-title {
+        width: 60%;
+    }
+    .cooperation p {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .container {
+        max-width: 1240px;
+    }
+    .intro-title {
+        width: 60%;
+        font-size: 45px;
+    }
+    .intro-text {
+        font-size: 20px;
+    }
+    .experience-item {
+        font-size: 22px;
+        padding: 16px 0;
+    }
+
+    .intro-title {
+        width: 70%;
+    }
+    .cooperation p {
+        width: 70%;
+    }
+    .cooperation {
+        background-size: inherit;
+    }
+
+}
+
+@media screen and (max-width:1280px) {
+    .container {
+        max-width: 1040px;
+    }
+    .intro-title {
+        width: 60%;
+        font-size: 45px;
+    }
+    .intro-text {
+        width: 70%;
+    }
+    .experience-item {
+        font-size: 18px;
+        padding: 16px 0;
+    }
+
+    .intro-title {
+        width: 70%;
+    }
+
+    .benefit-text {
+        font-size: 22px;
+    }
+
+    .cooperation p {
+        width: 70%;
+    }
+    .cooperation {
+        background-size: inherit;
+    }
+
+    .themes-item-1 img {
+        width: 400px;
+    }
+}
